@@ -31,3 +31,23 @@ Cuando el paquete llegó al S1, ¿por qué también se reenvió a la PC7?
 >
 > &#9315; R// Porque la PC7 también pertenece a la VLAN 10, y las solicitudes de ARP eran para la VLAN 10. Los switches reenvían los paquetes a cualquier dispositivo que esté conectado a la VLAN 10 en su puerto.
 >
+
+### PREGUNTAS PARTE 2
+> [!NOTE]
+> &#9312; b.	Elimine la configuración de inicio en los tres switches.
+Preguntas:
+¿Qué comando se utiliza para eliminar la configuración de inicio de los switches?
+> 
+> &#9313; ¿Dónde se almacena el archivo VLAN en los switches?
+>
+>  &#9314; c.	Elimine el archivo VLAN en los tres switches.
+Pregunta:
+¿Qué comando elimina el archivo VLAN almacenado en los switches?
+>
+### RESPUESTA PARTE 2
+> [!IMPORTANT]
+> &#9312; R// Switch# erase startup-config
+> 
+> &#9313; R//flash:vlan.dat
+> &#9314; R// Switch# delete vlan.dat
+>
