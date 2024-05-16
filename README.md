@@ -49,5 +49,34 @@ Pregunta:
 > &#9312; R// Switch# erase startup-config
 > 
 > &#9313; R//flash:vlan.dat
+> 
 > &#9314; R// Switch# delete vlan.dat
+>
+### PREGUNTAS DE REFLEXION
+> [!NOTE]
+> &#9312;	Si un equipo en la VLAN 10 envía un mensaje de difusión, ¿qué dispositivos lo reciben?
+>
+> &#9313; Si una computadora en la VLAN 20 envía un mensaje de difusión, ¿qué dispositivos lo reciben?
+>
+> &#9314; Si una computadora en la VLAN 30 envía un mensaje de difusión, ¿qué dispositivos lo reciben?
+>
+> &#9315; ¿Qué le sucede a una trama enviada desde un equipo en la VLAN 10 hacia un equipo en la VLAN 30?
+>
+> &#9316;5.	Desde el punto de vista de los puertos, ¿cuáles son los dominios de colisiones en el switch?
+>
+> &#9317; Desde el punto de vista de los puertos, ¿cuáles son los dominios de difusión en el switch?
+>
+### RESPUESTA DE REFLEXION
+> [!IMPORTANT]
+> &#9312; R// Todos los dispositivos que están en la VLAN 10.
+> 
+> &#9313; R// Todos los dispositivos que están en la VLAN 20.
+>
+> &#9314; R// Todos los dispositivos que están en la VLAN 30.
+>
+> &#9315; R//Lo descarta.
+>
+> &#9316; R// Cada puerto es un dominio de colisiones diferente.
+>
+> &#9317; R// Se dividen por la cantidad de VLAN en el switch.
 >
