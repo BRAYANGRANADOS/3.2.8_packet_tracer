@@ -21,4 +21,13 @@ Pregunta:
 Cuando el paquete llegó al S1, ¿por qué también se reenvió a la PC7?
 > 
 
-
+### RESPUESTA PARTE 1
+> [!IMPORTANT]
+> &#9312; R// No, los pings no se realizaron correctamente, porque la PC1 está en una VLAN diferente que la PC6, lo que no permite que estos dispositivos se comuniquen entre sí porque están separados de manera lógica.
+> 
+> &#9313; R//El S3 lo envió a la PC4 porque estaba en la misma VLAN que la PC1.
+>
+> &#9314; R// Sí, porque tanto la PC1 como la PC4 pertenecen a la VLAN 10, por lo tanto, la ruta de la solicitud de ARP es la misma que antes. Como PC4 es el destino, responde a la petición ARP. Entonces, PC1 puede enviar el ping con la dirección MAC de destino para PC4.
+>
+> &#9315; R// Porque la PC7 también pertenece a la VLAN 10, y las solicitudes de ARP eran para la VLAN 10. Los switches reenvían los paquetes a cualquier dispositivo que esté conectado a la VLAN 10 en su puerto.
+>
